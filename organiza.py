@@ -58,4 +58,6 @@ def injeta_script(diretorio):
     copiar = os.system('copy ' + script_Organizador + ' ' + diretorio_Atual) 
     cria_pastas()
     
+directory = input('Digite o caminho do diretório que deseja organizar ex: C:\\Users\\Desktop ->')
 
+injeta_script(directory)
